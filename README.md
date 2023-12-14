@@ -2,7 +2,7 @@
 
 ## Work-day Calendar has been created
 
-Simply add events in the calendar and click on the blue save icon to keep it there. Past hours is denoted by grey highlight, current hour is denoted by red highlight and future hours is denoted by green light. Use this feature to keep track of event saved.
+Simply add events in the calendar and click on the blue save icon to keep it there. Past hours is denoted by grey highlight, current hour is denoted by red highlight and future hours is denoted by green light. Use this feature to keep track of events saved.
 
 Below is a link and screenshot of the deployed application:
 
