@@ -6,5 +6,6 @@ Simply add events in the calendar and click on the blue save icon to keep it the
 
 Below is a link and screenshot of the deployed application:
 
+https://mohnishbhujun.github.io/Work-day-calender-week-5/
 
-![Screenshot 2023-12-14 154259](https://github.com/MohnishBhujun/Work-day-calender-week-5/assets/149837818/2800f61e-cfe7-43fc-b05c-414a058cc3be)
+![image](https://github.com/MohnishBhujun/Work-day-calender-week-5/assets/149837818/a93895fa-5294-44b1-b996-d1022ed113fd)
