@@ -1,17 +1,17 @@
 $(function () {
-  // Add a listener for click events on the save button
+  //Adding a listener for click events on the save button
   $(".saveBtn").on("click", function () {
-    // Get the id of the time-block containing the clicked button
+    //Getting the id of the time-block containing the clicked button for checking
     var timeBlockId = $(this).parent().attr("id");
     
-    // Get the user input from the textarea
+    //Getting the user input from the text area
     var userInput = $(this).siblings(".description").val();
     
-    // Save the user input in local storage using the time-block id as the key
+    //Saving the user input in local storage using the time-block id as key
     localStorage.setItem(timeBlockId, userInput);
   });
 
-  // Apply the past, present, or future class to each time block
+  //Checking current hour to add the past, present, or future class to each time block
   $(".time-block").each(function () {
     var timeBlockId = $(this).attr("id");
     var currentHour = dayjs().format("H");
@@ -25,7 +25,7 @@ $(function () {
     }
   });
 
-  // Get any user input saved in localStorage and set the values of the corresponding textarea elements
+  //Getting user input saved in the local storage and seting the values of the corresponding text area elements
   $(".time-block").each(function () {
     var timeBlockId = $(this).attr("id");
     var userInput = localStorage.getItem(timeBlockId);
@@ -35,7 +35,7 @@ $(function () {
     }
   });
 
-  // Display the current date in the header of the page
-  var currentDate = dayjs().format("dddd, MMMM D, YYYY");
+  //Displaying the current date in the header of the page
+  var currentDate = dayjs().format("dddd, MMMM D");
   $("#currentDay").text(currentDate);
 });
